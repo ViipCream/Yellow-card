@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --basecolor: #f5d04e;
+}
+
+@import url(font.css);
+
+body {
+    background-color: var(--basecolor);
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 330px;
+    height: 520px;
+    margin: 220px auto;
+    padding: 0 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px #000000
+}
+.imghead {
+    scale: 101%;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.container-text {
+    line-height: 2.1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 14px;
+    font-family: FigtreeBB;
+    background-color: var(--basecolor);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 24px;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+.text01 {
+    font-size: 14px;
+    font-family: FigtreeR;
+    margin-top: 8px;
+}
+
+.foundations {
+    font-family: FigtreeBB;
+    font-size: 24px;
+    color: black;
+}
+
+.foundations:hover {
+    color: var(--basecolor);
+}
+
+.text02 {
+    font-family: FigtreeR;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    line-height: 1.5;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.imgprofile {
+    width: 30px;
+}
+
+.nameprofile {
+    font-family: FigtreeBB;
+    font-size: 14px;
+    padding: 0px 10px;
+    color: black;
+}
